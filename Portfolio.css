@@ -1,0 +1,102 @@
+html{
+    background-color: orange;
+    color: blue;
+}
+.left{
+    text-align: left;
+    color: red;
+    float: left;
+}
+.port{
+    font-size: 100px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    float: right;
+    padding-top:20px;
+}
+
+.nav-items{
+    display: inline;
+    margin: 20px;
+}
+
+.my-details{
+    padding-top: 100px;
+}
+.image{
+    background-image: linear-gradient(rgba(223, 255, 134, 0.192), rgba(253, 250, 105, 0.247) ), url(mask.jpg);
+    margin: auto;
+    background-size: contain;
+    height: 600px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.image-text{
+    padding-top: 400px;
+    color: white;
+    
+}
+.details{
+   font-size: 20px;
+   width: 500px;
+   margin: auto;
+}
+button{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+    padding: 15px 30px;
+    border: solid 4px blue;
+    border-radius: 25px;
+    transition: ease-in .3s ;
+}
+hr{
+    border: double 4px white;
+    border-radius: 30px;
+}
+.items{
+     width: 300px;    
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    grid-template-columns: auto auto auto
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 90px;
+    line-height: 40px;
+}
+.text{
+    background: #5F9EA0;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 25px;
+    display: table;
+    border-radius: 25px;
+    margin: auto
+}
+.row1{
+    float: left
+}
+.row2{
+    float: right
+}
